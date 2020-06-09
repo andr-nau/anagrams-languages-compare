@@ -7,7 +7,7 @@ First, I divided lists into sets of words of equal length. To equalize results f
 
 ![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/words_percent.png "words in %")
 
-Next, actually, - finding of anagrams for different languages. Also using sets of words of equal length. Number of anagrams for each "equal length words" set:
+Next, actually, - finding of anagrams for different languages. Also using sets of words of equal length. Number of anagrams for each "equal length words" set, absolute values:
 
 ![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
 
