@@ -1,2 +1,3 @@
 # anagrams-lang-compare
-Test work for LinkedIn course "Python: Data Analysis"
+
+This is my training during attending LinkedIn course "Python: Data Analysis"
