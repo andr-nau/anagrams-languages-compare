@@ -7,7 +7,9 @@ I found words lists (dictionaries) for different languages (EN, RU, UA, DE, FR):
 - Ru      - ~124k words. Nouns, verbs, adjectives, pronouns, prepositions, personal/proper names, more compound words. No conjunctions.
 - UA      - ~188k words. Nouns, verbs, adjectives, a lot of compound words. No pronouns, prepositions, conjunctions.
 - EN      - ~230k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal/proper names.
+
 _list of words from Webster's Second International Dictionary (1934). The copyright has lapsed, and this file is included in Unix and OS X (and found at /usr/share/dict/words) as a reference wordlist for various uses_
+
 - EN_small - ~194k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal names, less proper names.
 - DE      - ~166k words. Nouns, verbs, adjectives, pronouns, prepositions, personal/proper names.
 - FR      - ~336k words.
