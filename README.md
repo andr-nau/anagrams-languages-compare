@@ -8,7 +8,9 @@ I found words lists (dictionaries) for different languages (EN, RU, UA, DE, FR):
 - UA      - ~188k words. Nouns, verbs, adjectives, a lot of compound words. No pronouns, prepositions, conjunctions.
 - EN      - ~230k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal/proper names.
 - EN_small - ~194k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal names, less proper names.
-
+- DE      - ~166k words. Nouns, verbs, adjectives, pronouns, prepositions, personal/proper names.
+- FR      - ~336k words.
+- FR_small - ~209k words.
 
 First, I divided lists into sets of words of equal length. To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. All languages show similar results in %, so it seems good representation.
 
