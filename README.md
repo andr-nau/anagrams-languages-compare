@@ -1,7 +1,15 @@
 # anagrams-lang-compare
 This is my training project during attending LinkedIn course "Python: Data Analysis". The project is still in progress.
 
-I found words lists (dictionaries) for different languages (EN, RU, UA, DE, FR). German, French small version, English small version dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). English bigger size dictionary was provided in LI course (list of words from Webster's Second International Dictionary (1934). The copyright has lapsed, and this file is included in Unix and OS X (and found at /usr/share/dict/words) as a reference wordlist for various uses). Ukrainian dictionary has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (dict found in https://github.com/brown-uk/dict_uk). Russian dictionaries are from http://www.speakrus.ru/ (free for non-commertial use).
+I found words lists (dictionaries) for different languages (EN, RU, UA, DE, FR). 
+
+German, French small version, English small version dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
+
+English bigger size dictionary was provided in LI course (list of words from Webster's Second International Dictionary (1934). The copyright has lapsed, and this file is included in Unix and OS X (and found at /usr/share/dict/words) as a reference wordlist for various uses). 
+
+Ukrainian dictionary has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (dict found in https://github.com/brown-uk/dict_uk). 
+
+Russian dictionaries are from http://www.speakrus.ru/ (free for non-commertial use).
 
 
 - RU_small - ~92k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions.
