@@ -1,9 +1,9 @@
 # anagrams-lang-compare
-### This is my training project during attending LinkedIn course "Python: Data Analysis". The project is still in progress.
+## This is my training project during attending LinkedIn course "Python: Data Analysis". The project is still in progress.
 
 The initial challenge was to find all anagrams for given English dictionary. I decided to extend this task for different languages and compare the results. 
 
-1. Set of words lists (dictionaries) for different languages (EN, RU, UA, DE, FR) was prepared.
+1. Set of words lists (dictionaries) for different languages (EN, RU, UA, DE, FR) has been  prepared.
 
 	__German__, __French small__, __English small__ dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
 
@@ -23,15 +23,14 @@ The initial challenge was to find all anagrams for given English dictionary. I d
 	- FR      - ~336k words.
 	- FR_small - ~209k words.
 
-2. Word lists (dictionaries) were divided into sets of words of equal length. To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. All languages show similar results in %, so it seems good representation.
+2. All Word lists (dictionaries) has been divided into sets of words of equal length. To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. All languages show similar results in %, so it seems good representation.
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/words_percent.png "words in %")
 
-3. Next, actually, - finding of anagrams for different languages. Also using sets of words of equal length. Number of anagrams for each "equal length words" set, absolute values:
+3. Main step - finding of anagrams for different languages. Anagrams also divided by sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
 
-	And number of anagrams for each "equal length words" set, recalculated in % of length of each set:
+	Next picture presents number of anagrams for each "equal length words" set, but recalculated in % of length of each set:
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams_percent.png "anagrams in %")
-
