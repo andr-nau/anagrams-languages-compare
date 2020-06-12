@@ -1,5 +1,5 @@
 # anagrams-lang-compare
-## This is my training project during attending LinkedIn course "Python: Data Analysis". The project is still in progress.
+### This is my training project during attending LinkedIn course "Python: Data Analysis". The project is still in progress.
 
 The initial challenge was to find all anagrams for given English dictionary. I decided to extend this task for different languages and compare the results. 
 
