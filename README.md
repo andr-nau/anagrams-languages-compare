@@ -3,34 +3,53 @@
 
 The initial challenge was to find all anagrams for given English dictionary. I decided to extend this task for different languages and compare the results. 
 
-1. Set of words lists (dictionaries) for different languages (EN, RU, UA, DE, FR) has been  prepared.
+__1. Set of words lists (dictionaries) for different languages (EN, RU, UA, DE, FR) has been prepared.__
 
-	__German__, __French small__, __English small__ dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
+English main dictionary was provided in LinkedIn course (This is list of words from Webster's Second International Dictionary (1934). 
+The copyright has lapsed, and this file is included in Unix and OS X (and found at /usr/share/dict/words) as a reference wordlist for various uses). 
 
-	__English__ bigger size dictionary was provided in LI course (list of words from Webster's Second International Dictionary (1934). The copyright has lapsed, and this file is included in Unix and OS X (and found at /usr/share/dict/words) as a reference wordlist for various uses). 
+Russian dictionaries are from http://www.speakrus.ru/ (free for non-commercial use).
 
-	__Ukrainian__ dictionary has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (dict found in https://github.com/brown-uk/dict_uk). 
+Ukrainian dictionary found in https://github.com/brown-uk/dict_uk and has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 
-	__Russian__ dictionaries are from http://www.speakrus.ru/ (free for non-commertial use).
+German, French small, and English small dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
 
 
-	- RU_small - ~92k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions.
-	- Ru      - ~124k words. Nouns, verbs, adjectives, pronouns, prepositions, personal/proper names, more compound words. No conjunctions.
-	- UA      - ~188k words. Nouns, verbs, adjectives, a lot of compound words. No pronouns, prepositions, conjunctions.
-	- EN      - ~230k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal/proper names.
-	- EN_small - ~194k words. Nouns, verbs, adjectives, pronouns, prepositions, conjunctions, personal names, less proper names.
-	- DE      - ~166k words. Nouns, verbs, adjectives, pronouns, prepositions, personal/proper names.
-	- FR      - ~336k words.
-	- FR_small - ~209k words.
+| language | words | nouns | verbs | adjectives | pronouns | prepositions | conjunctions | personal names | proper names | other |
+|:---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|EN		|320k|x|x|x|x|x|x|x|x|
+|EN small|194k|x|x|x|x|x|x|x|few|
+|UA		|188k|x|x|x||||||many compound words|
+|RU		|124k|x|x|x|x|x|x|x|x|compound words|
+|RU small|92k|x|x|x|x|x|x|||compound words|
+|DE		|166k|x|x|x|x|x|x|x|x|
+|FR		|207k|x|x|x|x|x|x|x|x|
 
-2. All Word lists (dictionaries) has been divided into sets of words of equal length. To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. All languages show similar results in %, so it seems good representation.
+
+__2. All Word lists (dictionaries) has been divided into sets of words of equal length.__ 
+
+To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. 
+All languages show similar results in %, so it seems good representation.
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/words_percent.png "words in %")
 
-3. Main step - finding of anagrams for different languages. Anagrams also divided by sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
+__3. Main step - finding of anagrams for different languages.__ 
+
+Anagrams also divided by sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
 
-	Next picture presents number of anagrams for each "equal length words" set, but recalculated in % of length of each set:
+Next picture presents number of anagrams for each "equal length words" set, but recalculated in % of length of each set:
 
 	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams_percent.png "anagrams in %")
+
+__Preliminary results:__
+
+- All Slavic languages (RU, UA) have similar number of anagrams.
+- German group (EN, DE): German shows results similar to Slavic group, whereas English is very similar by anagrams to French (Romance languages).
+- Romance group (FR): French is very similar to English. 
+- Questions: why smaller English dictionary has larger number of anagrams, even in "%" representation? 
+
+For Russian it's seems OK: in absolute values, small and big dictionaries has almost equal number of anagrams. In % representation small dictionary shows bigger values - 
+to get % scale, we divide almost equal number of anagrams for both dicts for each word length, by different number of words of this length.
+Bigger dictionary has bigger number of words of each length, and consequently, smaller % of anagrams. 
