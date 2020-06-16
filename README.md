@@ -31,17 +31,17 @@ __2. All Word lists (dictionaries) has been divided into sets of words of equal 
 To equalize results for different dictionaries sizes (for different languages), I recalculated results in % of overall number of words in dictionary. 
 All languages show similar results in %, so it seems good representation.
 
-	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/words_percent.png "words in %")
+![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/words_percent.png "words in %")
 
 __3. Main step - finding of anagrams for different languages.__ 
 
 Anagrams also divided by sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
 
-	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
+![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
 
 Next picture presents number of anagrams for each "equal length words" set, but recalculated in % of length of each set:
 
-	![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams_percent.png "anagrams in %")
+![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams_percent.png "anagrams in %")
 
 __Preliminary results:__
 
