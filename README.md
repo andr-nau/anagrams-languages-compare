@@ -10,7 +10,7 @@ The copyright has lapsed, and this file is included in Unix and OS X (and found 
 
 Russian dictionaries are from http://www.speakrus.ru/ (free for non-commercial use).
 
-Ukrainian dictionary found in https://github.com/brown-uk/dict_uk and has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+Ukrainian dictionary are found in project  https://github.com/brown-uk/dict_uk and has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 
 German, French small, and English small dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
 
