@@ -39,11 +39,11 @@ All languages show similar results in %, so it seems good representation.
 
 __3. Main step - finding of anagrams for different languages.__ 
 
-Anagrams also divided by sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
+The main idea of the serach for anagrams is to prepare "signatures" of each word - list of all letters of the word in alphabetical order. Then all words with the same signature can make an anagram. An anagram is an equality of two words, so total number of anagrams (for current signature) is 1/2 of all words that belong to one signature. Anagrams results is also presented using sets of words of equal length. Next Figure shows number of anagrams for each "equal length words" set (in absolute values):
 
 ![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams.png "anagrams")
 
-Next picture presents number of anagrams for each "equal length words" set, but recalculated in % of length of each set:
+Next picture presents the same result, but recalculated in the percents of words number in each word length set:
 
 ![Output figure](https://github.com/andr-nau/anagrams-lang-compare/blob/master/anagrams_percent.png "anagrams in %")
 
