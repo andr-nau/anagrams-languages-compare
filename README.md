@@ -12,7 +12,7 @@ Russian dictionaries are from http://www.speakrus.ru/ (free for non-commercial u
 
 Ukrainian dictionary are found in project  https://github.com/brown-uk/dict_uk and has Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 
-German, French small, and English small dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
+German, French, and English small dictionaries were found in open access (http://www.gwicks.net/dictionaries.htm). 
 
 
 | language | words | nouns | verbs | adjectives | pronouns | prepositions | conjunctions | personal names | proper names | other |
